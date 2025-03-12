@@ -1,0 +1,22 @@
+Phần mềm chạy code: Python 3.11.7
+Môi trường phát triển: Window
+Thư viện: nằm trong file requirements.txt
+- einops
+- shapely
+- timm
+- yacs
+- tensorboardX
+- ftfy
+- prettytable
+- pymongo
+- pycocotools
+- scipy
+- opencv-python
+- transformers
+- ultralytics
+
+Sau đó cài các thư viện torch cần thiết:
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+Và sau đó là chạy file setup.py bằng lệnh 
+python setup.py build develop --user

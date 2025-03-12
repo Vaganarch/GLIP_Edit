@@ -1,0 +1,2 @@
+sử dụng lệnh "python GLIP.py --config-file configs\pretrain\{file yaml tương ứng} --weight MODEL\{file pth tương ứng} --task_config {file yaml tùy thuộc vào dataset} TEST.IMS_PER_BATCH 1 SOLVER.IMS_PER_BATCH 1 TEST.EVAL_TASK detection DATASETS.TRAIN_DATASETNAME_SUFFIX _grounding DATALOADER.DISTRIBUTE_CHUNK_AMONG_NODE False DATASETS.USE_OVERRIDE_CATEGORY True DATASETS.USE_CAPTION_PROMPT True" để chạy mô hình GLIP
+sử dụng lệnh "python YOLOv11.py" để chạy mô hình YOLOv11
